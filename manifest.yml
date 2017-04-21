@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ECAccentureDemo
+  host: ECAccentureDemo
+  disk_quota: 1024M
+  services:
+  - ECAccentureDemo-personality_insights
